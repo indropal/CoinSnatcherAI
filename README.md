@@ -1,7 +1,7 @@
 <h1>CoinSnatcherAI</h1>
 
 <p align="center">
-<img src="https://github.com/indropal/CoinSnatcherAI/blob/main/Images/Coin_Snatcher.png?raw=True" width="500" height="400"/>
+<img src="https://github.com/indropal/CoinSnatcherAI/blob/main/Images/Coin_Snatcher.png?raw=True" width="500" height="350"/>
 </p>
 <hr style = "border: 2px gray double"></hr>
 <br>
@@ -76,13 +76,10 @@ Each Episode / Game play-time session is restricted to <b><em>20 seconds</em></b
 
 Most of the assets used in this project are available for free from the <a href="https://assetstore.unity.com/">Unity Asset Store</a>.
 
-<br>
 <b>Player Avatar</b> has been created with the <a href="https://assetstore.unity.com/packages/3d/characters/jammo-character-mix-and-jam-158456#description">Jammo Asset</a> - a friendly bot character 🤖 presented by <b><a href="https://www.youtube.com/watch?v=jKErxSUx54Q">Mix and Jam</a></b>.
 
-<br>
 <b>Agent Avatar</b> is self-created.
 
-<br>
 All <b>Avatar</b> animations i.e. running, jumping - have been appropriated from <b><a href="https://www.mixamo.com/">Mixamo</a></b>.
 
 <hr style = "border: 2px gray double"></hr>
