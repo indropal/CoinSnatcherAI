@@ -20,7 +20,6 @@ NOTE:
 
 <u><h3 id="player-controls">Player Controls:</h3></u>
 
-
 In order to collect coins, the player needs to navigate / control the player-avatar to the coin. Upon successful collection, the collected coin will disappear from the game & update the <em><b>Player Score</b></em>.
 
 <em>Movement Controls</em>:
@@ -38,10 +37,11 @@ In order to collect coins, the player needs to navigate / control the player-ava
 
 The Game Environment has each individual [Episode]("Episode") constrained by a limited time duration i.e. <b><em>20 seconds</em></b> within which both [Player]("Player") & [Agent]("Agent") must interact with the Environment & compete to collect as many coins as possible.
 
+Before the game begins, Coins are spawned at random locations within the game environment. The positions of the coins will change with every reset of the environment - environment state reset occurs at the begin of each game session or [episode](#Episode).
+
 The State Vector consists of a Vector of <b><em>N</em></b> features obtained from the agent's velocity, along with <em>ray-based perception</em> of objects around the agent's forward direction. 
 
 <br>
-
 The <b>Action-Space</b> is composed of <b>5</b> Discrete Actions are available to the <a href="#Agent">Agent</a> which compose the . They are as follows:
 
 * 0 : Move Forward
@@ -56,7 +56,6 @@ The [Agent](#Agent) can choose among 5 discrete actions at each timestep of an E
 <h2 id="Player">Player: </h2>
 
 The player can interact with the game [Environment](#E) / [Agent](#Agent) using the <a href="#player-controls">Player Controls</a>
-
 
 <br>
 <h2 id="Agent">Agent: </h2>
