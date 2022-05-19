@@ -8,7 +8,7 @@
 This project presents a <b>micro-game</b> which is based on the idea of <b><em>Gamified Reinforcement Learning</em></b>. The Player has to compete against an <b>AI(RL) Agent</b> to collect <em>as many coins as possible</em> within a constrained amount of time. The project has been built with <b>Unity's <a href = "https://github.com/Unity-Technologies/ml-agents">ml-agents</a></b> package.
 <br></br>
 
-<b>The Game is available <u><a href = "https://indropal.github.io/CoinSnatcherAI/">here</a></u> for playing!<br/>
+<b>The Game is available <u><a href = "https://indropal.github.io/CoinSnatcherAI/">HERE</a></u> for playing!<br/>
 Try and beat the AI Agent! 😄
 
 NOTE:
