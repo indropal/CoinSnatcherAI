@@ -1,6 +1,8 @@
 behaviors:
+
   Coin_Snatcher:
     trainer_type: ppo
+
     hyperparameters:
       batch_size: 512
       buffer_size: 1024
@@ -10,11 +12,13 @@ behaviors:
       lambd: 0.99
       num_epoch: 4
       learning_rate_schedule: linear
+
     network_settings:
       normalize: false
       hidden_units: 512
       num_layers: 4
       vis_encode_type: simple
+
     reward_signals:
       extrinsic:
         gamma: 0.99
@@ -26,6 +30,7 @@ behaviors:
           vis_encode_type: simple
           memory: null
           goal_conditioning_type: hyper
+
       gail:
         gamma: 0.99
         strength: 0.6
@@ -40,14 +45,8 @@ behaviors:
         encoding_size: null
         use_actions: false
         use_vail: false
-        demo_path: C:/Users/palin/Desktop/Profile_Projects/ML_Agents_Intro/CoinSnatcher/Demos/TrialDemo6.demo
-    behavioral_cloning:
-      demo_path:  C:/Users/palin/Desktop/Profile_Projects/ML_Agents_Intro/CoinSnatcher/Demos/TrialDemo6.demo
-      steps: 0
-      strength: 0.5
-      samples_per_update: 0
-      num_epoch: null
-      batch_size: null
+        demo_path: ./CoinSnatcher/Demos/Trial.demo
+
     keep_checkpoints: 50
     checkpoint_interval: 5
     max_steps: 20000
